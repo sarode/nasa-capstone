@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAKA,IAAK;EACD,gBAAgB,EAJR,IAAI;EAKZ,aAAS;IACL,gBAAgB,EALZ,IAAI",
-"sources": ["../../resources/assets/sass/app.scss"],
-"names": [],
-"file": "app.css"
-}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAKA;EACI,4BAJiB,EAQpB;EALD;IAGQ,uBALQ,EAMX","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n$color_one: lightpink;\n$color_two: blue;\n\nbody {\n    background-color: $color_one;\n    .welcome {\n        background-color: $color_two;\n    }\n}"],"sourceRoot":"/source/"}
