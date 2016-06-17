@@ -1,0 +1,11 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$color_one: pink;
+$color_two: blue;
+
+body {
+    background-color: $color_one;
+    .welcome {
+        background-color: $color_two;
+    }
+}
