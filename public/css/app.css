@@ -1,6 +1,12 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
-  background-color: lightpink; }
+  background: linear-gradient(red, green) left repeat; }
   body .welcome {
-    background-color: blue; }
+    background: linear-gradient(red, green) left repeat; }
 
 /*# sourceMappingURL=app.css.map */
