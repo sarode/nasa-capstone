@@ -1,11 +1,14 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bourbon/bourbon";
+@import "../neat/neat";
+@import "../base/base";
 
 $color_one: lightpink;
 $color_two: blue;
 
 body {
-    background-color: $color_one;
+    @include background(linear-gradient(red, green) left repeat);
     .welcome {
-        background-color: $color_two;
+        @include background(linear-gradient(red, green) left repeat);
     }
 }
