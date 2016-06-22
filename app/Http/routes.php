@@ -15,15 +15,15 @@ Route::get('/', function()
 {
     return View::make('pages.home');
 });
-Route::get('about', function()
+Route::get('research', function()
 {
-    return View::make('pages.about');
+    return View::make('pages.research');
 });
-Route::get('projects', function()
+Route::get('ideation', function()
 {
-    return View::make('pages.projects');
+    return View::make('pages.ideation');
 });
-Route::get('contact', function()
+Route::get('product', function()
 {
-    return View::make('pages.contact');
+    return View::make('pages.product');
 });

@@ -1,0 +1,27 @@
+.header {
+	@include outer-container(100%);
+	background-color: color(dark-gray);
+}
+
+.navbar {
+	@include row();
+	@include pad(default);
+	.logo {
+		@include span-columns(2);
+		color: color(white);
+		font-weight: weight(medium);
+		font-size: modular-scale(1.5);
+		text-transform: uppercase;
+	}
+}
+
+ul.nav {
+	@include span-columns(10);
+	li {
+		float: right;
+		display: inline-block;
+		font-size: modular-scale(1.5);
+		margin-left: $gutter;
+		text-transform: uppercase;
+	}
+}

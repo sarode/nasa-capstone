@@ -3,12 +3,9 @@
 @import "../neat/neat";
 @import "../base/base";
 
-$color_one: lightpink;
-$color_two: blue;
 
-body {
-    @include background(linear-gradient(red, green) left repeat);
-    .welcome {
-        @include background(linear-gradient(red, green) left repeat);
-    }
-}
+@import "../normalize";
+@import "base";
+@import "homepage";
+@import "header";
+@import "footer";

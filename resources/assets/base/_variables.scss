@@ -3,7 +3,7 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: "brandon-grotesque",sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -20,17 +20,42 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$colors: (
+	white: #FFFFFF,
+	blue: #1565c0,
+	dark-gray: #353639,
+	medium-gray: #999,
+	light-gray: #ddd,
+	bg: #F1F4F6,
+	sub-bg: #A3ABB3
+);
+
+//Links
+$base-color: #76afbd;
+
+$links: (
+	base: $base-color,
+	hover: darken($base-color, 30%),
+	lighten: lighten($base-color, 10%)
+
+);
+
+// Colors
+$weights: (
+	thin: 100,
+	light: 300,
+	regular: 400,
+	medium: 500,
+	bold: 700,
+	black: 900
+);
 
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: color(dark-gray);
+$action-color: $base-color;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: color(light-gray);
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
@@ -44,3 +69,9 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Colors
+$z-layers: (
+	hero: 100,
+	hero-tagline: 10
+);
